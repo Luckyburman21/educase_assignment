@@ -1,51 +1,48 @@
-.Ac_setting{
-    height: 40rem;
-    width: 40rem;
-    background-color: rgb(250, 245, 236);
-    margin: 3rem auto 0;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    font-size: 1.5rem;
-   
-    border: 1px solid grey;
-    border-radius: 1rem;
-    
+.Ac_setting {
+  height: 40rem;
+  width: 40rem;
+  background-color: rgb(250, 245, 236);
+  margin: 3rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.5rem;
+
+  border: 1px solid grey;
+  border-radius: 1rem;
 }
-header{
-    background-color: white;
-    padding: 1rem 2rem;
-   border-top-left-radius: 1rem;
-   border-top-right-radius: 1rem;
+header {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
-.image-sec{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    
+.image-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
 }
-section , .Ac_setting >  p{
-    padding: 1rem 2rem;
+section,
+.Ac_setting > p {
+  padding: 1rem 2rem;
 }
-#edit_icon{
-    position: relative;
-    right: 2.5rem;
-    bottom: 0.2rem;
-    background-color: rgb(55, 55, 230);
-    border-radius: 50%;
-    cursor: pointer;
+#edit_icon {
+  position: relative;
+  right: 2.5rem;
+  bottom: 0.2rem;
+  background-color: rgb(55, 55, 230);
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-@media (max-width:550px){
-    .Ac_setting{
-       
-        width: 37rem;
-    }
-    #edit_icon{
-        position: relative;
-        right: -6rem;
-        bottom: 3rem;
-       
-    }
+@media (max-width: 550px) {
+  .Ac_setting {
+    width: 37rem;
+  }
+  #edit_icon {
+    position: relative;
+    right: -6rem;
+    bottom: 3rem;
+  }
 }

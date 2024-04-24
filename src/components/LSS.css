@@ -1,37 +1,37 @@
-.landing_screen{
-    height: 100%;
-    width: 100%;
-   
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-   padding: 5rem 0;
+.landing_screen {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 5rem 0;
 }
-.Landing_content{
-    height: 30rem;
-    width: 50rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: 2rem;
-    padding: 1rem;
-    margin-bottom: 3rem;
+.Landing_content {
+  height: 30rem;
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
 }
-#create_btn, #Login_btn{
-    width: 70%;
-    background-color: blue;
-    outline: none;
-    border: none;
-    border-radius: 2rem;
-    padding: 1rem ;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: aliceblue;
-    cursor: pointer;
+#create_btn,
+#Login_btn {
+  width: 70%;
+  background-color: blue;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: aliceblue;
+  cursor: pointer;
 }
-#Login_btn{
-   
-    background-color: rgb(221, 213, 213);
-    color: black;
+#Login_btn {
+  background-color: rgb(221, 213, 213);
+  color: black;
 }

@@ -17,28 +17,27 @@
   padding: 2rem;
   border-radius: 2rem;
 }
-fieldset{
-    border-radius: 1rem;
+fieldset {
+  border-radius: 1rem;
 }
-legend{
-    font-size: 1.4rem;
-  
+legend {
+  font-size: 1.4rem;
 }
-fieldset > input{
-    width: 90%;
-    padding: 0.5rem 1rem;
-    background: none;
-    border: none;
-    outline: none;
+fieldset > input {
+  width: 90%;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  outline: none;
 }
-button{
-    width: 18rem;
-    margin: 0 auto;
-    padding: 0.5rem 1rem;
-    font-size: 1.7rem;
-    border-radius: 1rem;
-    outline: none;
-    border: none;
+button {
+  width: 18rem;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  font-size: 1.7rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
   font-weight: bold;
   background-color: blueviolet;
   color: aliceblue;
