@@ -1,0 +1,45 @@
+.signin_div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.signin_content {
+  height: 80%;
+  width: 50rem;
+  background-color: rgb(247, 237, 239);
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+fieldset{
+    border-radius: 1rem;
+}
+legend{
+    font-size: 1.4rem;
+  
+}
+fieldset > input{
+    width: 90%;
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+    outline: none;
+}
+button{
+    width: 18rem;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+  font-weight: bold;
+  background-color: blueviolet;
+  color: aliceblue;
+}
